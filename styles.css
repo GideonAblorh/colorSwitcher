@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	transition: 0.2s ease;
+}
+body{
+	padding-top: 40px;
+	background: #add8e6;
+	text-align: center;
+	font-family: tahoma;
+	color: #fff;
+}
+.themes{
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: left;
+	color: #fff;
+}
+.themes p.themes-btn{
+	color: #333;
+	background: #fff;
+	padding: 15px;
+	border-radius: 0 0 5px 0;
+	font-weight: bold;
+}
+.themes p.themes-btn:hover{
+	box-shadow: 4px 4px 10px -3px rgb(0,0,0,0.56);
+}
+.themes .colors{
+	float: left;
+	padding: 10px;
+	background: rgb(0,0,0,0.5);
+	border-radius: 0 0 10px 0;
+	margin-left: -300px;
+}
+.themes .colors.active{
+	margin-left: 0;
+}
+.themes .colors h4{
+	font-family: tahoma;
+	font-weight: normal;
+	text-transform: capitalize;
+	margin-bottom: 7px;
+}
+.themes .themes-btn{
+	float: right;
+	cursor: pointer;
+}
+.themes ul li{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	border-radius: 50px;
+	margin-right: 2px;
+}
+.themes ul li:hover{
+	filter: alpha(opacity=80);
+	opacity: 0.8px;
+}
+.themes ul.theme-colors li:nth-child(1),
+.themes ul.text-colors li:nth-child(1){
+	background: #053140;
+	color: #053140;
+}
+.themes ul.theme-colors li:nth-child(2),
+.themes ul.text-colors li:nth-child(2){
+	background: #fff;
+	color: #fff;
+}
+.themes ul.theme-colors li:nth-child(3),
+.themes ul.text-colors li:nth-child(3){
+	background: #0084d6;
+	color: #0084d6;
+}
+.themes ul.theme-colors li:nth-child(4),
+.themes ul.text-colors li:nth-child(4){
+	background: #a7e60d;
+	color: #a7e60d;
+}
+.themes ul.theme-colors li:nth-child(5),
+.themes ul.text-colors li:nth-child(5){
+	background: #244005;
+	color: #244005;
+}
+.themes ul.theme-colors li:nth-child(6),
+.themes ul.text-colors li:nth-child(6){
+	background: #4f0450;
+	color: #4f0450;
+}
+.themes ul.theme-colors li:nth-child(7),
+.themes ul.text-colors li:nth-child(7){
+	background: #11057b;
+	color: #11057b;
+}
+.themes ul.theme-colors li:nth-child(8),
+.themes ul.text-colors li:nth-child(8){
+	background: #d1d408;
+	color: #d1d408;
+}
+.themes ul.theme-colors li:nth-child(9),
+.themes ul.text-colors li:nth-child(9){
+	background: #0b808c;
+	color: #0b808c;
+}
+.themes ul.theme-colors li:nth-child(10),
+.themes ul.text-colors li:nth-child(10){
+	background: #0edaef;
+	color: #0edaef;
+}
+h3{
+	margin-top: 215px;
+	font-size: 50px;
+	display: inline-block;
+	position: relative;
+	font-family: Helvetica Neue;
+	color: #a7e60d;
+}
+h5{
+	font-size: large;
+	margin-top: 50px;
+	font-family: cambria;
+	color: darkorange;
+}
+.themes-btn{
+	border-top-right-radius: 25px !important;
+	border-bottom-right-radius: 25px !important;
+	padding: 15px 35px !important;
+}
